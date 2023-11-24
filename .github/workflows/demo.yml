@@ -1,8 +1,8 @@
 name: Deploy website
 on:
   push:
-    branches:
-      - RPCGA-1-gh-data-develop
+    # branches:
+    #   - RPCGA-1-gh-data-develop
 jobs:
   test:
     runs-on: ubuntu-latest
